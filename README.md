@@ -1,5 +1,7 @@
-# 屋面铝板分隔成果 · V2
+# 1102e 屋面铝板成果
 
-[进入成果下载与使用说明](roof-panels/README.md)
+[下载最新版 V3：放射随形排列](roof-panels-v3/README.md)
 
-成果保存在本仓库的 `roof-panels-v2` 分支，包括可独立打开的完整离线网页、模型、统计清单和SketchUp桥接脚本。
+新版依据两张参考图，采用角部放射长向接缝与横向随形弧带，含完整交互网页、模型与统计。
+
+[V2旧版仍保留](https://github.com/liuzuguo/-/tree/roof-panels-v2/roof-panels)。

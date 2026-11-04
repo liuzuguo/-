@@ -1,0 +1,42 @@
+[
+  {
+    "file": "roof_panels_radial_v3.html",
+    "bytes": 6705491,
+    "sha256": "852432f51510250f44bb4f268e37913f84bcb2c3b152cf30efcfea2d0f5c4eeb"
+  },
+  {
+    "file": "roof_panels_radial_v3_axo.png",
+    "bytes": 1047734,
+    "sha256": "38852ec7e53851793c882ea042abcc0d1d44451728433b601ad4302a9a2b1954"
+  },
+  {
+    "file": "roof_panels_radial_v3_full.zip",
+    "bytes": 20604940,
+    "sha256": "b6e5308055fe2f7cce3a0a5fc9385fb212d868e6c3f90997fa2f354778e5bced"
+  },
+  {
+    "file": "roof_panels_radial_v3_preview.png",
+    "bytes": 331479,
+    "sha256": "717617341a79825d9854059a83bc3866a212239f92b6d288b2b48cab1825f302"
+  },
+  {
+    "file": "roof_panels_radial_v3_top.png",
+    "bytes": 1008164,
+    "sha256": "8c0da8375c77206277711d57bfa3d34248970c35917fd94b23cde006c728ef16"
+  },
+  {
+    "file": "roof_panels_radial_v3_web.zip",
+    "bytes": 5037827,
+    "sha256": "5192b5962cf4fa6e25276243e0a97857a94ec004733eb77d6a2e319fafe4a703"
+  },
+  {
+    "file": "先读我.md",
+    "bytes": 3514,
+    "sha256": "30328f1d8d078c32d2bb7766c8d9d96cd92b0bf459741caf2729a5cb59a6064b"
+  },
+  {
+    "file": "打开说明.txt",
+    "bytes": 338,
+    "sha256": "7c6926978eaac6461484344b409400f6f9488071cc27706b4b04893d8d5f68e5"
+  }
+]
