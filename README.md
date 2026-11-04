@@ -1,7 +1,7 @@
-# 1102e 屋面铝板成果
+# 1102e 屋面铝板交互系统
 
-[下载最新版 V3：放射随形排列](roof-panels-v3/README.md)
+[下载最新版V4：自由尺寸与模型移动](roof-panels-v4/README.md)
 
-新版依据两张参考图，采用角部放射长向接缝与横向随形弧带，含完整交互网页、模型与统计。
+宽度500–1500mm，长度自动为3倍；实际重新分格与统计，新增方向按钮、长按平移和回中。
 
-[V2旧版仍保留](https://github.com/liuzuguo/-/tree/roof-panels-v2/roof-panels)。
+[V3放射随形固定版仍保留](roof-panels-v3/README.md)。

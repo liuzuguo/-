@@ -1,0 +1,37 @@
+[
+  {
+    "file": "roof_panels_adjustable_v4.html",
+    "bytes": 4383689,
+    "sha256": "b2ca84d0ec4ee72c1bece3ed10dac1f4dcefce28b327fb8644e283419f392ff0"
+  },
+  {
+    "file": "roof_panels_adjustable_v4_full.zip",
+    "bytes": 12666197,
+    "sha256": "c2d212e3b68f40d283de74f2f1b6f53decf2d4defb20131c7f6d536e868d4b8e"
+  },
+  {
+    "file": "roof_panels_adjustable_v4_overview.png",
+    "bytes": 407430,
+    "sha256": "c143f43107a8cde8deaa8f0ed291b514570df1ea2b4dd95b6a7cb362c0edbc20"
+  },
+  {
+    "file": "roof_panels_adjustable_v4_preview.png",
+    "bytes": 548530,
+    "sha256": "767ea039fb643211eed69618921b39de6528f1671e4b00fd928cc149acab1397"
+  },
+  {
+    "file": "roof_panels_adjustable_v4_web.zip",
+    "bytes": 3245394,
+    "sha256": "c160e2bbfd54f570f7a000f1fd65f01d2eb8cde2f3ff938977af14ced9bbdc57"
+  },
+  {
+    "file": "使用说明.md",
+    "bytes": 3672,
+    "sha256": "2a2289bbb8969917b964a5d6a07ec9b10be4300998e1b701020b8d471931a97c"
+  },
+  {
+    "file": "打开说明.txt",
+    "bytes": 428,
+    "sha256": "99c8d6042c46f0b9e6638e6b8fbc44bb7b1c4a8cdb8e91911dc4e6acacf37425"
+  }
+]
