@@ -1,0 +1,37 @@
+[
+  {
+    "file": "roof_panels_fixed_v2.html",
+    "bytes": 5201691,
+    "sha256": "a6e62f6ce601447d36aeaf7cbff826c09358cc70a803450ca0ddb74a247a81d7"
+  },
+  {
+    "file": "roof_panels_fixed_v2.zip",
+    "bytes": 14571634,
+    "sha256": "8b71f12f2f3f1dd18ed0605f3f8f07a780285262d2cf05c06c3c7a898c68e9a7"
+  },
+  {
+    "file": "roof_panels_web_v2.zip",
+    "bytes": 3899508,
+    "sha256": "57782d54fd990bb85e2fba96715ab5154805a00bc8549b02fbb85376df070686"
+  },
+  {
+    "file": "roof_panels_fixed_v2_preview.png",
+    "bytes": 525574,
+    "sha256": "cd3081e5198d094abdbdaab19dd369e166233aa41f22f577786e525f1e0491f5"
+  },
+  {
+    "file": "sketchup_bridge.rb",
+    "bytes": 18639,
+    "sha256": "641d69b9e60f87a69880f236e4187835e22f9c6a0dcd79045e0e5b5fe180d382"
+  },
+  {
+    "file": "打开说明.txt",
+    "bytes": 747,
+    "sha256": "a6dff208ed2ef252705367b069e7b8ce7de34704bf5e03819eadbc33fa752000"
+  },
+  {
+    "file": "先读我.md",
+    "bytes": 5834,
+    "sha256": "bc94cd0dc94925322231c48b3755fcc1af7b53fd7eaed8549677e0af83aa87a9"
+  }
+]

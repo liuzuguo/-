@@ -1,0 +1,10 @@
+﻿屋面铝板工作台 V2 完整离线版
+
+1. 解压后用新版 Microsoft Edge 或 Chrome 打开根目录 app.html。
+2. 看到“V2 完整离线版”、18,912块及41,612.70平方米，表示完整模型已载入。
+3. 单独下载的 roof_panels_fixed_v2.html 也是同一完整网页，无需成果包即可使用。
+4. 网页内可导出CSV、JSON、DAE；“导入SketchUp”内可下载Ruby导入脚本。
+5. 不再分发不能独立运行的 app.html 开发模板；源模板已改为 app.template.html.txt。
+
+修复原因：旧成果包的技术目录中混入了缺少内嵌模型数据的开发模板，误打开后报 null.textContent。
+本次所有HTML入口均内嵌全部数据，且对缺失/损坏数据提供中文提示。
