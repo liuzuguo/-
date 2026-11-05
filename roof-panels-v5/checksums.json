@@ -1,0 +1,37 @@
+[
+  {
+    "file": "roof_panels_flexible_v5.html",
+    "bytes": 4447231,
+    "sha256": "7d6a568443d8a42a076a69a26eab45134eeac2f61325c20de209727f9feca2cd"
+  },
+  {
+    "file": "roof_panels_flexible_v5_full.zip",
+    "bytes": 14138449,
+    "sha256": "29f15edbdb672c0a46f375f2757d3b008ac273fdfeef0ac1cf4b712170082189"
+  },
+  {
+    "file": "roof_panels_flexible_v5_preview.png",
+    "bytes": 386802,
+    "sha256": "3de8952060a17967ca19caa54b4b13779f3fa895255894dfcd9fd45ca4240660"
+  },
+  {
+    "file": "roof_panels_flexible_v5_ratio.png",
+    "bytes": 396571,
+    "sha256": "f6f231f7c8c3b71881359da9e67a9e756e1843ec1ced9515bc50a24f6b131755"
+  },
+  {
+    "file": "roof_panels_flexible_v5_web.zip",
+    "bytes": 3287306,
+    "sha256": "c90c937ef292c676d72075e56fbfa99f26aa8440363d4293a22d124241c15bd6"
+  },
+  {
+    "file": "使用说明.md",
+    "bytes": 4066,
+    "sha256": "44450a0510e3f8fdf42f39b09f4a1854d61bcaba5a6107e6ae5c03b070929202"
+  },
+  {
+    "file": "打开说明.txt",
+    "bytes": 429,
+    "sha256": "9536ec5b0c4aafdf75c3955dc4072a4c7e6fca2d36a459bd1b05fffe97753d8f"
+  }
+]
