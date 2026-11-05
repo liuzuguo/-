@@ -1,0 +1,1260 @@
+{
+  "format": "roof-panel-v7-delivery-validation-1",
+  "all_passed": true,
+  "app_only": false,
+  "worker_sha256": "1d79057d5e41718a6cdda63d25b5ec20c0694d73f7028616491000a94b490f92",
+  "html_sha256": "55d10b75fd163b956d55e3751563828319ed6a8cfd9afa796a3210752cfca76f",
+  "archives": [
+    {
+      "file": "roof_panels_planar_v7_web.zip",
+      "bytes": 5166174,
+      "sha256": "bfce6f0202dd47889e0c1709f911787f6ba79f95202df0217ac9fd999d3dc792",
+      "entries": 5
+    },
+    {
+      "file": "roof_panels_planar_v7_full.zip",
+      "bytes": 20554588,
+      "sha256": "30531ca19d1fa894dcb455e35bec3da4308bca59484c9c8c9b0b4fec6bcb99dd",
+      "entries": 48
+    }
+  ],
+  "checks": [
+    {
+      "name": "source unchanged from V5: modelData.json",
+      "passed": true
+    },
+    {
+      "name": "source unchanged from V5: source_uv_complete.json",
+      "passed": true
+    },
+    {
+      "name": "source unchanged from V5: context_lite.bin.gz",
+      "passed": true
+    },
+    {
+      "name": "built standalone alias identity: roof_panels_planar_v7.html",
+      "passed": true
+    },
+    {
+      "name": "built standalone alias identity: 1102e_V7平直对缝工作台.html",
+      "passed": true
+    },
+    {
+      "name": "builtapp: complete HTML",
+      "passed": true
+    },
+    {
+      "name": "builtapp: no unresolved development placeholders",
+      "passed": true
+    },
+    {
+      "name": "builtapp: identical to built app and manifest hash",
+      "passed": true
+    },
+    {
+      "name": "builtapp: no external JS or stylesheet dependencies",
+      "passed": true
+    },
+    {
+      "name": "builtapp: all controls present once",
+      "passed": true
+    },
+    {
+      "name": "builtapp: width input has no1500/500 fabrication clamp",
+      "passed": true,
+      "detail": {
+        "id": "widthInput",
+        "type": "number",
+        "min": "1",
+        "step": "1",
+        "value": "1000",
+        "aria-label": "铝板设定宽度，毫米"
+      }
+    },
+    {
+      "name": "builtapp: length independent, no old cap",
+      "passed": true,
+      "detail": {
+        "id": "lengthInput",
+        "type": "number",
+        "min": "1",
+        "step": "1",
+        "value": "3000",
+        "aria-label": "铝板设定长度，毫米"
+      }
+    },
+    {
+      "name": "builtapp: slider is auxiliary and expands to typed width",
+      "passed": true
+    },
+    {
+      "name": "builtapp: free sizing defaults and optional ratio",
+      "passed": true
+    },
+    {
+      "name": "builtapp: normalWidth validates positive numerical range, no500/1500 clamp",
+      "passed": true
+    },
+    {
+      "name": "builtapp: exact same size group helper and displayed counts",
+      "passed": true
+    },
+    {
+      "name": "builtapp: independent size groups and orange/red GPU colors",
+      "passed": true
+    },
+    {
+      "name": "builtapp: V7 renderer delivered verbatim",
+      "passed": true
+    },
+    {
+      "name": "builtapp: independent W/L passed unchanged to worker",
+      "passed": true
+    },
+    {
+      "name": "builtapp: exported directional W/L and optional ratio mode",
+      "passed": true
+    },
+    {
+      "name": "builtapp: exported strict planar geometry and ridge alignment rule",
+      "passed": true
+    },
+    {
+      "name": "builtapp: saves V7 and accepts V6/V5 projects",
+      "passed": true
+    },
+    {
+      "name": "builtapp: plane/ridge UI checks allplates and no folds",
+      "passed": true
+    },
+    {
+      "name": "builtapp: DAE retains9decimal coordinates for planarity",
+      "passed": true
+    },
+    {
+      "name": "builtapp: five payload elements present exactly once",
+      "passed": true
+    },
+    {
+      "name": "builtapp: complete nonempty payload panelData",
+      "passed": true,
+      "detail": {
+        "bytes": 25402779,
+        "sha256": "9cc3c7d6d3a09a38426dd1e3ddc6e8a0f8e989b18624bc2431c985f1642a2d4c"
+      }
+    },
+    {
+      "name": "builtapp: complete nonempty payload modelData",
+      "passed": true,
+      "detail": {
+        "bytes": 134506,
+        "sha256": "44e707649cf592f4d90049d23909af3337e098c32b1bc5893dcc3b4511b03b86"
+      }
+    },
+    {
+      "name": "builtapp: complete nonempty payload contextData",
+      "passed": true,
+      "detail": {
+        "bytes": 6860484,
+        "sha256": "3bb445fd07bc41427897dbeb7c37221ac36200b6ca71e605e5c5d5b39ac20286"
+      }
+    },
+    {
+      "name": "builtapp: complete nonempty payload bridgeData",
+      "passed": true,
+      "detail": {
+        "bytes": 29318,
+        "sha256": "a49d65e35951011face2b107984e1f1623c70ce2f7231a384a6fc534285dd804"
+      }
+    },
+    {
+      "name": "builtapp: complete nonempty payload workerData",
+      "passed": true,
+      "detail": {
+        "bytes": 28207,
+        "sha256": "1d79057d5e41718a6cdda63d25b5ec20c0694d73f7028616491000a94b490f92"
+      }
+    },
+    {
+      "name": "builtapp: actual default geometry identical to generated file",
+      "passed": true
+    },
+    {
+      "name": "builtapp:1000x3000 default, free positive sizing",
+      "passed": true
+    },
+    {
+      "name": "builtapp: original roof UV/instances/center unchanged",
+      "passed": true
+    },
+    {
+      "name": "builtapp: strict planar rule present in default data",
+      "passed": true
+    },
+    {
+      "name": "builtapp: default allflat and zero ridge mismatches",
+      "passed": true
+    },
+    {
+      "name": "builtapp: common global grid clipped to real source planes",
+      "passed": true
+    },
+    {
+      "name": "builtapp defaultmesh: nonempty actual vertices planar within0.0001mm",
+      "passed": true,
+      "detail": {
+        "panels": 13474,
+        "max_actual_plane_error_mm": 1.5881474433077187e-06
+      }
+    },
+    {
+      "name": "builtapp defaultmesh: all panels explicitly flat and no bends",
+      "passed": true
+    },
+    {
+      "name": "builtapp defaultmesh: ridge proof contains actual bilateral intervals",
+      "passed": true
+    },
+    {
+      "name": "builtapp defaultmesh: both ridge slopes have same complete panel-change interval partitions",
+      "passed": true,
+      "detail": {
+        "source_ridges": 430,
+        "max_opposing_parameter_error": 0
+      }
+    },
+    {
+      "name": "builtapp: default regenerated with delivered worker",
+      "passed": true
+    },
+    {
+      "name": "builtapp: original source mesh/all8transforms identical",
+      "passed": true
+    },
+    {
+      "name": "builtapp: original background unchanged",
+      "passed": true
+    },
+    {
+      "name": "builtapp: delivered worker matches source/manifest",
+      "passed": true
+    },
+    {
+      "name": "builtapp: worker independent positive widths and lengths",
+      "passed": true
+    },
+    {
+      "name": "builtapp: worker resource guard retained",
+      "passed": true
+    },
+    {
+      "name": "builtapp: embedded Ruby identical and V7 layer",
+      "passed": true
+    },
+    {
+      "name": "builtapp: Ruby V7 dimensions and legacy mode recognized",
+      "passed": true
+    },
+    {
+      "name": "builtapp: V7 Ruby rejects actual nonplanar input",
+      "passed": true
+    },
+    {
+      "name": "independent geometry suite passed",
+      "passed": true
+    },
+    {
+      "name": "geometry report finalworker identity",
+      "passed": true
+    },
+    {
+      "name": "each independent geometry case has reconstructed XYZ bilateral ridge proof",
+      "passed": true
+    },
+    {
+      "name": "negative controls reject bent panels and truly mismatched ridge seams",
+      "passed": true
+    },
+    {
+      "name": "size group renderer regression suite passed",
+      "passed": true
+    },
+    {
+      "name": "actual browser suite passed with no external requests/errors",
+      "passed": true
+    },
+    {
+      "name": "actual browser report finalworker/HTML identity",
+      "passed": true
+    },
+    {
+      "name": "actual exported strictplanar bridge numeric checks passed",
+      "passed": true
+    },
+    {
+      "name": "bridge report finalRuby identity",
+      "passed": true
+    },
+    {
+      "name": "resource guards passed with finalworker",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone: complete HTML",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone: no unresolved development placeholders",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone: identical to built app and manifest hash",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone: no external JS or stylesheet dependencies",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone: all controls present once",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone: width input has no1500/500 fabrication clamp",
+      "passed": true,
+      "detail": {
+        "id": "widthInput",
+        "type": "number",
+        "min": "1",
+        "step": "1",
+        "value": "1000",
+        "aria-label": "铝板设定宽度，毫米"
+      }
+    },
+    {
+      "name": "releasedstandalone: length independent, no old cap",
+      "passed": true,
+      "detail": {
+        "id": "lengthInput",
+        "type": "number",
+        "min": "1",
+        "step": "1",
+        "value": "3000",
+        "aria-label": "铝板设定长度，毫米"
+      }
+    },
+    {
+      "name": "releasedstandalone: slider is auxiliary and expands to typed width",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone: free sizing defaults and optional ratio",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone: normalWidth validates positive numerical range, no500/1500 clamp",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone: exact same size group helper and displayed counts",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone: independent size groups and orange/red GPU colors",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone: V7 renderer delivered verbatim",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone: independent W/L passed unchanged to worker",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone: exported directional W/L and optional ratio mode",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone: exported strict planar geometry and ridge alignment rule",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone: saves V7 and accepts V6/V5 projects",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone: plane/ridge UI checks allplates and no folds",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone: DAE retains9decimal coordinates for planarity",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone: five payload elements present exactly once",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone: complete nonempty payload panelData",
+      "passed": true,
+      "detail": {
+        "bytes": 25402779,
+        "sha256": "9cc3c7d6d3a09a38426dd1e3ddc6e8a0f8e989b18624bc2431c985f1642a2d4c"
+      }
+    },
+    {
+      "name": "releasedstandalone: complete nonempty payload modelData",
+      "passed": true,
+      "detail": {
+        "bytes": 134506,
+        "sha256": "44e707649cf592f4d90049d23909af3337e098c32b1bc5893dcc3b4511b03b86"
+      }
+    },
+    {
+      "name": "releasedstandalone: complete nonempty payload contextData",
+      "passed": true,
+      "detail": {
+        "bytes": 6860484,
+        "sha256": "3bb445fd07bc41427897dbeb7c37221ac36200b6ca71e605e5c5d5b39ac20286"
+      }
+    },
+    {
+      "name": "releasedstandalone: complete nonempty payload bridgeData",
+      "passed": true,
+      "detail": {
+        "bytes": 29318,
+        "sha256": "a49d65e35951011face2b107984e1f1623c70ce2f7231a384a6fc534285dd804"
+      }
+    },
+    {
+      "name": "releasedstandalone: complete nonempty payload workerData",
+      "passed": true,
+      "detail": {
+        "bytes": 28207,
+        "sha256": "1d79057d5e41718a6cdda63d25b5ec20c0694d73f7028616491000a94b490f92"
+      }
+    },
+    {
+      "name": "releasedstandalone: actual default geometry identical to generated file",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone:1000x3000 default, free positive sizing",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone: original roof UV/instances/center unchanged",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone: strict planar rule present in default data",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone: default allflat and zero ridge mismatches",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone: common global grid clipped to real source planes",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone defaultmesh: nonempty actual vertices planar within0.0001mm",
+      "passed": true,
+      "detail": {
+        "panels": 13474,
+        "max_actual_plane_error_mm": 1.5881474433077187e-06
+      }
+    },
+    {
+      "name": "releasedstandalone defaultmesh: all panels explicitly flat and no bends",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone defaultmesh: ridge proof contains actual bilateral intervals",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone defaultmesh: both ridge slopes have same complete panel-change interval partitions",
+      "passed": true,
+      "detail": {
+        "source_ridges": 430,
+        "max_opposing_parameter_error": 0
+      }
+    },
+    {
+      "name": "releasedstandalone: default regenerated with delivered worker",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone: original source mesh/all8transforms identical",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone: original background unchanged",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone: delivered worker matches source/manifest",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone: worker independent positive widths and lengths",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone: worker resource guard retained",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone: embedded Ruby identical and V7 layer",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone: Ruby V7 dimensions and legacy mode recognized",
+      "passed": true
+    },
+    {
+      "name": "releasedstandalone: V7 Ruby rejects actual nonplanar input",
+      "passed": true
+    },
+    {
+      "name": "release manifest unique complete filenames",
+      "passed": true
+    },
+    {
+      "name": "release manifest safe filename roof_panels_planar_v7.html",
+      "passed": true
+    },
+    {
+      "name": "release manifest SHA/size roof_panels_planar_v7.html",
+      "passed": true
+    },
+    {
+      "name": "release manifest safe filename roof_panels_planar_v7_full.zip",
+      "passed": true
+    },
+    {
+      "name": "release manifest SHA/size roof_panels_planar_v7_full.zip",
+      "passed": true
+    },
+    {
+      "name": "release manifest safe filename roof_panels_planar_v7_preview.png",
+      "passed": true
+    },
+    {
+      "name": "release manifest SHA/size roof_panels_planar_v7_preview.png",
+      "passed": true
+    },
+    {
+      "name": "release manifest safe filename roof_panels_planar_v7_ridge.png",
+      "passed": true
+    },
+    {
+      "name": "release manifest SHA/size roof_panels_planar_v7_ridge.png",
+      "passed": true
+    },
+    {
+      "name": "release manifest safe filename roof_panels_planar_v7_selection.png",
+      "passed": true
+    },
+    {
+      "name": "release manifest SHA/size roof_panels_planar_v7_selection.png",
+      "passed": true
+    },
+    {
+      "name": "release manifest safe filename roof_panels_planar_v7_web.zip",
+      "passed": true
+    },
+    {
+      "name": "release manifest SHA/size roof_panels_planar_v7_web.zip",
+      "passed": true
+    },
+    {
+      "name": "release manifest safe filename 使用说明.md",
+      "passed": true
+    },
+    {
+      "name": "release manifest SHA/size 使用说明.md",
+      "passed": true
+    },
+    {
+      "name": "release manifest safe filename 打开说明.txt",
+      "passed": true
+    },
+    {
+      "name": "release manifest SHA/size 打开说明.txt",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: safe relative paths and no symlinks",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: no duplicate entries and valid ZIP CRC",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: exactly one runnable root app.html",
+      "passed": true,
+      "detail": [
+        "app.html"
+      ]
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: complete HTML",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: no unresolved development placeholders",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: identical to built app and manifest hash",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: no external JS or stylesheet dependencies",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: all controls present once",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: width input has no1500/500 fabrication clamp",
+      "passed": true,
+      "detail": {
+        "id": "widthInput",
+        "type": "number",
+        "min": "1",
+        "step": "1",
+        "value": "1000",
+        "aria-label": "铝板设定宽度，毫米"
+      }
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: length independent, no old cap",
+      "passed": true,
+      "detail": {
+        "id": "lengthInput",
+        "type": "number",
+        "min": "1",
+        "step": "1",
+        "value": "3000",
+        "aria-label": "铝板设定长度，毫米"
+      }
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: slider is auxiliary and expands to typed width",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: free sizing defaults and optional ratio",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: normalWidth validates positive numerical range, no500/1500 clamp",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: exact same size group helper and displayed counts",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: independent size groups and orange/red GPU colors",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: V7 renderer delivered verbatim",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: independent W/L passed unchanged to worker",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: exported directional W/L and optional ratio mode",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: exported strict planar geometry and ridge alignment rule",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: saves V7 and accepts V6/V5 projects",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: plane/ridge UI checks allplates and no folds",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: DAE retains9decimal coordinates for planarity",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: five payload elements present exactly once",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: complete nonempty payload panelData",
+      "passed": true,
+      "detail": {
+        "bytes": 25402779,
+        "sha256": "9cc3c7d6d3a09a38426dd1e3ddc6e8a0f8e989b18624bc2431c985f1642a2d4c"
+      }
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: complete nonempty payload modelData",
+      "passed": true,
+      "detail": {
+        "bytes": 134506,
+        "sha256": "44e707649cf592f4d90049d23909af3337e098c32b1bc5893dcc3b4511b03b86"
+      }
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: complete nonempty payload contextData",
+      "passed": true,
+      "detail": {
+        "bytes": 6860484,
+        "sha256": "3bb445fd07bc41427897dbeb7c37221ac36200b6ca71e605e5c5d5b39ac20286"
+      }
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: complete nonempty payload bridgeData",
+      "passed": true,
+      "detail": {
+        "bytes": 29318,
+        "sha256": "a49d65e35951011face2b107984e1f1623c70ce2f7231a384a6fc534285dd804"
+      }
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: complete nonempty payload workerData",
+      "passed": true,
+      "detail": {
+        "bytes": 28207,
+        "sha256": "1d79057d5e41718a6cdda63d25b5ec20c0694d73f7028616491000a94b490f92"
+      }
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: actual default geometry identical to generated file",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip:1000x3000 default, free positive sizing",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: original roof UV/instances/center unchanged",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: strict planar rule present in default data",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: default allflat and zero ridge mismatches",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: common global grid clipped to real source planes",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip defaultmesh: nonempty actual vertices planar within0.0001mm",
+      "passed": true,
+      "detail": {
+        "panels": 13474,
+        "max_actual_plane_error_mm": 1.5881474433077187e-06
+      }
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip defaultmesh: all panels explicitly flat and no bends",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip defaultmesh: ridge proof contains actual bilateral intervals",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip defaultmesh: both ridge slopes have same complete panel-change interval partitions",
+      "passed": true,
+      "detail": {
+        "source_ridges": 430,
+        "max_opposing_parameter_error": 0
+      }
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: default regenerated with delivered worker",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: original source mesh/all8transforms identical",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: original background unchanged",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: delivered worker matches source/manifest",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: worker independent positive widths and lengths",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: worker resource guard retained",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: embedded Ruby identical and V7 layer",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: Ruby V7 dimensions and legacy mode recognized",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: V7 Ruby rejects actual nonplanar input",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: user guides included",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip docs: positive independent dimensions",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip docs: width1500 ceiling removed",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip docs: optional arbitrary ratio explained",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip docs: orange selected and red peers,1mm size groups",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip docs: every panel flat without bends, roof retained",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip docs: ridge-top bilateral seam alignment",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip docs: planar nonrectangular pieces honestly explained",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip docs: resource limit explained",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_web.zip: packaged source/report identity sketchup_bridge.rb",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: safe relative paths and no symlinks",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: no duplicate entries and valid ZIP CRC",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: exactly one runnable root app.html",
+      "passed": true,
+      "detail": [
+        "app.html"
+      ]
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: complete HTML",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: no unresolved development placeholders",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: identical to built app and manifest hash",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: no external JS or stylesheet dependencies",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: all controls present once",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: width input has no1500/500 fabrication clamp",
+      "passed": true,
+      "detail": {
+        "id": "widthInput",
+        "type": "number",
+        "min": "1",
+        "step": "1",
+        "value": "1000",
+        "aria-label": "铝板设定宽度，毫米"
+      }
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: length independent, no old cap",
+      "passed": true,
+      "detail": {
+        "id": "lengthInput",
+        "type": "number",
+        "min": "1",
+        "step": "1",
+        "value": "3000",
+        "aria-label": "铝板设定长度，毫米"
+      }
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: slider is auxiliary and expands to typed width",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: free sizing defaults and optional ratio",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: normalWidth validates positive numerical range, no500/1500 clamp",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: exact same size group helper and displayed counts",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: independent size groups and orange/red GPU colors",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: V7 renderer delivered verbatim",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: independent W/L passed unchanged to worker",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: exported directional W/L and optional ratio mode",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: exported strict planar geometry and ridge alignment rule",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: saves V7 and accepts V6/V5 projects",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: plane/ridge UI checks allplates and no folds",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: DAE retains9decimal coordinates for planarity",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: five payload elements present exactly once",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: complete nonempty payload panelData",
+      "passed": true,
+      "detail": {
+        "bytes": 25402779,
+        "sha256": "9cc3c7d6d3a09a38426dd1e3ddc6e8a0f8e989b18624bc2431c985f1642a2d4c"
+      }
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: complete nonempty payload modelData",
+      "passed": true,
+      "detail": {
+        "bytes": 134506,
+        "sha256": "44e707649cf592f4d90049d23909af3337e098c32b1bc5893dcc3b4511b03b86"
+      }
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: complete nonempty payload contextData",
+      "passed": true,
+      "detail": {
+        "bytes": 6860484,
+        "sha256": "3bb445fd07bc41427897dbeb7c37221ac36200b6ca71e605e5c5d5b39ac20286"
+      }
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: complete nonempty payload bridgeData",
+      "passed": true,
+      "detail": {
+        "bytes": 29318,
+        "sha256": "a49d65e35951011face2b107984e1f1623c70ce2f7231a384a6fc534285dd804"
+      }
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: complete nonempty payload workerData",
+      "passed": true,
+      "detail": {
+        "bytes": 28207,
+        "sha256": "1d79057d5e41718a6cdda63d25b5ec20c0694d73f7028616491000a94b490f92"
+      }
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: actual default geometry identical to generated file",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip:1000x3000 default, free positive sizing",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: original roof UV/instances/center unchanged",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: strict planar rule present in default data",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: default allflat and zero ridge mismatches",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: common global grid clipped to real source planes",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip defaultmesh: nonempty actual vertices planar within0.0001mm",
+      "passed": true,
+      "detail": {
+        "panels": 13474,
+        "max_actual_plane_error_mm": 1.5881474433077187e-06
+      }
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip defaultmesh: all panels explicitly flat and no bends",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip defaultmesh: ridge proof contains actual bilateral intervals",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip defaultmesh: both ridge slopes have same complete panel-change interval partitions",
+      "passed": true,
+      "detail": {
+        "source_ridges": 430,
+        "max_opposing_parameter_error": 0
+      }
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: default regenerated with delivered worker",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: original source mesh/all8transforms identical",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: original background unchanged",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: delivered worker matches source/manifest",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: worker independent positive widths and lengths",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: worker resource guard retained",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: embedded Ruby identical and V7 layer",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: Ruby V7 dimensions and legacy mode recognized",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: V7 Ruby rejects actual nonplanar input",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: user guides included",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip docs: positive independent dimensions",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip docs: width1500 ceiling removed",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip docs: optional arbitrary ratio explained",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip docs: orange selected and red peers,1mm size groups",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip docs: every panel flat without bends, roof retained",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip docs: ridge-top bilateral seam alignment",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip docs: planar nonrectangular pieces honestly explained",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip docs: resource limit explained",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: packaged source/report identity sketchup_bridge.rb",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: packaged source/report identity renderer-v7.js",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: packaged source/report identity panel-worker.js",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: packaged source/report identity default-study.json",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: packaged source/report identity modelData.json",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: packaged source/report identity source_uv_complete.json",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: packaged source/report identity context_lite.bin.gz",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: packaged source/report identity dynamic_geometry_validation.json",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: packaged source/report identity browser_validation.json",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: packaged source/report identity bridge_numeric_validation.json",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: packaged source/report identity build_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: development template is non-runnable text",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: browser exported2500x6000 example included",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: sample identical to actual export",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: sample is V7 free2500x6000 with no1500 fabrication cap",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: sample count agrees with actual browser export",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: sample strict planar geometry metadata",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip actualexport: nonempty actual vertices planar within0.0001mm",
+      "passed": true,
+      "detail": {
+        "panels": 48784,
+        "max_actual_plane_error_mm": 1.8015929060088025e-06
+      }
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip actualexport: all panels explicitly flat and no bends",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip actualexport: ridge proof contains actual bilateral intervals",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip actualexport: both ridge slopes have same complete panel-change interval partitions",
+      "passed": true,
+      "detail": {
+        "source_ridges": 430,
+        "max_opposing_parameter_error": 0
+      }
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: actual exported CSV/DAE each included once",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: actual CSV identity and panel count",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: actual DAE identity and panel count",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip actualDAE: nonempty actual vertices planar within0.0001mm",
+      "passed": true,
+      "detail": {
+        "panels": 48784,
+        "max_actual_plane_error_mm": 2.5429509810671053e-06
+      }
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip actualDAE: all panels explicitly flat and no bends",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_planar_v7_full.zip: DAE keeps actual JSON coordinates to9decimals",
+      "passed": true,
+      "detail": {
+        "max_coordinate_error_m": 4.999947122996673e-10
+      }
+    }
+  ]
+}

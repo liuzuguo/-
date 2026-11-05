@@ -1,0 +1,42 @@
+[
+  {
+    "file": "roof_panels_planar_v7.html",
+    "bytes": 6951466,
+    "sha256": "55d10b75fd163b956d55e3751563828319ed6a8cfd9afa796a3210752cfca76f"
+  },
+  {
+    "file": "roof_panels_planar_v7_full.zip",
+    "bytes": 20554588,
+    "sha256": "30531ca19d1fa894dcb455e35bec3da4308bca59484c9c8c9b0b4fec6bcb99dd"
+  },
+  {
+    "file": "roof_panels_planar_v7_preview.png",
+    "bytes": 438823,
+    "sha256": "b147f6ba3a07577f9f512e38e5caaec25eeb5809ea2a382e01fdf789bdb3696e"
+  },
+  {
+    "file": "roof_panels_planar_v7_ridge.png",
+    "bytes": 556109,
+    "sha256": "078d989b44e4f2f7d073da95ab21da8a4e55cda1575b784d5b0b21657dbecc50"
+  },
+  {
+    "file": "roof_panels_planar_v7_selection.png",
+    "bytes": 760792,
+    "sha256": "73b55bcd28ea568292056897c12cff325726142984aadce96a195c7f3135261b"
+  },
+  {
+    "file": "roof_panels_planar_v7_web.zip",
+    "bytes": 5166174,
+    "sha256": "bfce6f0202dd47889e0c1709f911787f6ba79f95202df0217ac9fd999d3dc792"
+  },
+  {
+    "file": "使用说明.md",
+    "bytes": 4158,
+    "sha256": "3d2d82b2b7a601e021eeb743f5a95ca24125edc4ef8476dcfdb71423590460a6"
+  },
+  {
+    "file": "打开说明.txt",
+    "bytes": 322,
+    "sha256": "80c88a4e39f294d63f9cbf68d133ff9335a84a898a3bcb46fcfa0852eef2dd0b"
+  }
+]
