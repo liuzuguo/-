@@ -1,0 +1,42 @@
+[
+  {
+    "file": "roof_panels_rectangular_v8.html",
+    "bytes": 3074821,
+    "sha256": "4a47d40564898ba0415fb72a23d3b27adb809d57a8268a1a00ba8d76af9324dc"
+  },
+  {
+    "file": "roof_panels_rectangular_v8_arc.png",
+    "bytes": 253557,
+    "sha256": "e8ad9122a76edff869b76c4c3d504c47db268c7726b80b6abbd974d817ed6273"
+  },
+  {
+    "file": "roof_panels_rectangular_v8_full.zip",
+    "bytes": 8197536,
+    "sha256": "05bdaef5bec1ce3174a66353cdcffce3037ca7d40233f3d976ef409007241a35"
+  },
+  {
+    "file": "roof_panels_rectangular_v8_preview.png",
+    "bytes": 269498,
+    "sha256": "269952b259e21cdfbadc06603122c70143eb4f679b0a1d0f10e331d81fcaa8ed"
+  },
+  {
+    "file": "roof_panels_rectangular_v8_selection.png",
+    "bytes": 297774,
+    "sha256": "12e4c88223e3c02e56a1da0503654d805cbdcd6ef7f1453ba9d3a0473ac7dff6"
+  },
+  {
+    "file": "roof_panels_rectangular_v8_web.zip",
+    "bytes": 2239320,
+    "sha256": "6a8b2c91814d5f0c4aa5145ee5fdbd7f196646f236a505f29036a236e7798b43"
+  },
+  {
+    "file": "使用说明.md",
+    "bytes": 5122,
+    "sha256": "6132abea2de36357d858888249368ebdacfcc0fc9679d87c8b0e5b51199cd1bd"
+  },
+  {
+    "file": "打开说明.txt",
+    "bytes": 386,
+    "sha256": "5dbdc90844d11ffa552e557c2be2c4c93e004009f3e25f6a979f30212551346d"
+  }
+]

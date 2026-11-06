@@ -1,0 +1,1048 @@
+{
+  "format": "roof-panel-v8-delivery-validation-1",
+  "all_passed": true,
+  "app_only": false,
+  "worker_sha256": "0088b541938045d86783b834f188c6c0a7f3192445dbeaf294b0785728eebbc3",
+  "html_sha256": "4a47d40564898ba0415fb72a23d3b27adb809d57a8268a1a00ba8d76af9324dc",
+  "independent_reconstruction_sha256": "e50ac132a52797c92ad1e97177c8907300b0e40b8192822cca32e0c76545c314",
+  "actual_export": {
+    "panels": 2924,
+    "rectangles": 2764,
+    "arc_crops": 160,
+    "interior_max_actual_size_ratio": 1.0059097196026758,
+    "arc_crop_max_actual_size_ratio": 4.071721536802722,
+    "max_actual_plane_error_m": 1.3251165372240421e-13
+  },
+  "archives": [
+    {
+      "file": "roof_panels_rectangular_v8_web.zip",
+      "bytes": 2239320,
+      "sha256": "6a8b2c91814d5f0c4aa5145ee5fdbd7f196646f236a505f29036a236e7798b43",
+      "entries": 5
+    },
+    {
+      "file": "roof_panels_rectangular_v8_full.zip",
+      "bytes": 8197536,
+      "sha256": "05bdaef5bec1ce3174a66353cdcffce3037ca7d40233f3d976ef409007241a35",
+      "entries": 50
+    }
+  ],
+  "checks": [
+    {
+      "name": "original reference unchanged from preserved V7: modelData.json",
+      "passed": true
+    },
+    {
+      "name": "original reference unchanged from preserved V7: context_lite.bin.gz",
+      "passed": true
+    },
+    {
+      "name": "original reference unchanged from preserved V7: source_uv_complete.json",
+      "passed": true
+    },
+    {
+      "name": "approved reconstruction records original-source identity separately",
+      "passed": true
+    },
+    {
+      "name": "built standalone alias identity: roof_panels_rectangular_v8.html",
+      "passed": true
+    },
+    {
+      "name": "built standalone alias identity: 1102e_V8矩形重构工作台.html",
+      "passed": true
+    },
+    {
+      "name": "built app: complete single offline HTML",
+      "passed": true
+    },
+    {
+      "name": "built app: no unresolved development placeholders",
+      "passed": true
+    },
+    {
+      "name": "built app: final manifest HTML and worker hashes",
+      "passed": true
+    },
+    {
+      "name": "built app: each required control present once",
+      "passed": true
+    },
+    {
+      "name": "built app: independent positive uncapped widthInput",
+      "passed": true,
+      "detail": {
+        "id": "widthInput",
+        "type": "number",
+        "min": "1",
+        "step": "1",
+        "value": "1000",
+        "aria-label": "铝板设定宽度，毫米"
+      }
+    },
+    {
+      "name": "built app: independent positive uncapped lengthInput",
+      "passed": true,
+      "detail": {
+        "id": "lengthInput",
+        "type": "number",
+        "min": "1",
+        "step": "1",
+        "value": "3000",
+        "aria-label": "铝板设定长度，毫米"
+      }
+    },
+    {
+      "name": "built app: optional ratio defaults to free sizing",
+      "passed": true
+    },
+    {
+      "name": "built app: auxiliary width slider expands with typed width",
+      "passed": true
+    },
+    {
+      "name": "built app: same-size grouping uses actual finished dimensions to 1mm",
+      "passed": true
+    },
+    {
+      "name": "built app: exact frozen V8 renderer with orange/red selection",
+      "passed": true
+    },
+    {
+      "name": "built app: reconstructs using approved data and four candidate instances",
+      "passed": true
+    },
+    {
+      "name": "built app: export explicitly declares V8 reconstructed rectangles and arc exceptions",
+      "passed": true
+    },
+    {
+      "name": "built app: disclosure distinguishes rebuilt geometry from original fan surface",
+      "passed": true
+    },
+    {
+      "name": "built app: new project format retains legacy parameter loading",
+      "passed": true
+    },
+    {
+      "name": "built app: DAE uses nine-decimal world coordinates",
+      "passed": true
+    },
+    {
+      "name": "built app: five embedded payload elements appear exactly once",
+      "passed": true
+    },
+    {
+      "name": "built app: valid nonempty panelData",
+      "passed": true,
+      "detail": {
+        "bytes": 7828911,
+        "sha256": "8ffb7bd7ff5a4e197d39056393216e1ed8667f97e56eb504c1bb985429ae2fe0"
+      }
+    },
+    {
+      "name": "built app: valid nonempty modelData",
+      "passed": true,
+      "detail": {
+        "bytes": 134506,
+        "sha256": "44e707649cf592f4d90049d23909af3337e098c32b1bc5893dcc3b4511b03b86"
+      }
+    },
+    {
+      "name": "built app: valid nonempty contextData",
+      "passed": true,
+      "detail": {
+        "bytes": 6860484,
+        "sha256": "3bb445fd07bc41427897dbeb7c37221ac36200b6ca71e605e5c5d5b39ac20286"
+      }
+    },
+    {
+      "name": "built app: valid nonempty bridgeData",
+      "passed": true,
+      "detail": {
+        "bytes": 38419,
+        "sha256": "bac842cfd2deefd3f072e5ed4c87505ddd7e635800dc394fffb7525b594d12fc"
+      }
+    },
+    {
+      "name": "built app: valid nonempty workerData",
+      "passed": true,
+      "detail": {
+        "bytes": 27271,
+        "sha256": "0088b541938045d86783b834f188c6c0a7f3192445dbeaf294b0785728eebbc3"
+      }
+    },
+    {
+      "name": "built app: original source mesh and all eight reference transforms preserved",
+      "passed": true
+    },
+    {
+      "name": "built app: original context payload unchanged",
+      "passed": true
+    },
+    {
+      "name": "built app: worker and bridge payloads match frozen source exactly",
+      "passed": true
+    },
+    {
+      "name": "built app: default geometry is identical to generated worker result",
+      "passed": true
+    },
+    {
+      "name": "built app: approved reconstruction payload exact identity",
+      "passed": true
+    },
+    {
+      "name": "built app: default exact V8 rule and independent 1000x3000 dimensions",
+      "passed": true
+    },
+    {
+      "name": "built app: four full-roof output transforms separate from eight reference halves",
+      "passed": true
+    },
+    {
+      "name": "built app: independently verified actual default meshes, coverage, folds and neighbors",
+      "passed": true,
+      "detail": {
+        "full_actual_panel_count": 14204,
+        "full_true_rectangle_count": 13836,
+        "full_verified_exterior_arc_crop_count": 368,
+        "max_actual_plane_error_m": 3.158861312373634e-14,
+        "interior_neighbor_max_relative_difference": 0.00899663808187423,
+        "exterior_arc_crop_neighbor_max_actual_size_ratio": 8.135875537839768
+      }
+    },
+    {
+      "name": "built app: nonzero roof change is reported without original-area conservation claim",
+      "passed": true,
+      "detail": {
+        "verified": true,
+        "source_vertex_max_vertical_change_m": 5.224476040257969,
+        "source_centroid_area_weighted_rms_vertical_change_m": 1.340557110228702,
+        "source_centroid_p95_abs_vertical_change_m": 3.012248903455678,
+        "original_source_surface_is_coverage_target": false
+      }
+    },
+    {
+      "name": "actual browser export: explicit V8 rule, free 2500x6000 input and directional limits",
+      "passed": true
+    },
+    {
+      "name": "actual browser export: unique world panel IDs in exactly four complete roof scopes",
+      "passed": true
+    },
+    {
+      "name": "actual browser export: every actual mesh planar and rectangular or independently proven exterior crop",
+      "passed": true,
+      "detail": {
+        "rectangles": 2764,
+        "verified_arc_crops": 160,
+        "max_plane_error_mm": 1.325116537224042e-10,
+        "failures": []
+      }
+    },
+    {
+      "name": "actual browser export: finished dimensions and areas measured from actual shape",
+      "passed": true,
+      "detail": {
+        "max_dimension_error_m": 1.6653345369377348e-13,
+        "max_area_error_m2": 5.684341886080801e-13,
+        "failures": []
+      }
+    },
+    {
+      "name": "actual browser export: stock fields are explicit and distinct from finished dimensions",
+      "passed": true,
+      "detail": {
+        "invalid_panels": []
+      }
+    },
+    {
+      "name": "actual browser export: each complete NEW roof covered with no holes or overlaps",
+      "passed": true,
+      "detail": [
+        {
+          "passed": true,
+          "coverage_target": "approved reconstructed footprint, not the original 3-D roof surface",
+          "expected_xy_area_m2": 10036.612500748875,
+          "actual_xy_union_area_m2": 10036.61250074888,
+          "missing_xy_area_m2": 1.4300231820639605e-13,
+          "extra_xy_area_m2": 0.0,
+          "overlap_xy_area_m2": 0.0,
+          "area_tolerance_m2": 3.7771321196298245e-05,
+          "linear_tolerance_m": 1e-07,
+          "roof_id": "A"
+        },
+        {
+          "passed": true,
+          "coverage_target": "approved reconstructed footprint, not the original 3-D roof surface",
+          "expected_xy_area_m2": 10036.612500748875,
+          "actual_xy_union_area_m2": 10036.612500748877,
+          "missing_xy_area_m2": 0.0,
+          "extra_xy_area_m2": 0.0,
+          "overlap_xy_area_m2": 0.0,
+          "area_tolerance_m2": 3.7771321196298245e-05,
+          "linear_tolerance_m": 1e-07,
+          "roof_id": "B"
+        },
+        {
+          "passed": true,
+          "coverage_target": "approved reconstructed footprint, not the original 3-D roof surface",
+          "expected_xy_area_m2": 10036.612500748875,
+          "actual_xy_union_area_m2": 10036.612500748875,
+          "missing_xy_area_m2": 0.0,
+          "extra_xy_area_m2": 0.0,
+          "overlap_xy_area_m2": 0.0,
+          "area_tolerance_m2": 3.7771321196298245e-05,
+          "linear_tolerance_m": 1e-07,
+          "roof_id": "C"
+        },
+        {
+          "passed": true,
+          "coverage_target": "approved reconstructed footprint, not the original 3-D roof surface",
+          "expected_xy_area_m2": 10036.612500748875,
+          "actual_xy_union_area_m2": 10036.612500748879,
+          "missing_xy_area_m2": 5.457656330205363e-13,
+          "extra_xy_area_m2": 0.0,
+          "overlap_xy_area_m2": 0.0,
+          "area_tolerance_m2": 3.7771321196298245e-05,
+          "linear_tolerance_m": 1e-07,
+          "roof_id": "D"
+        }
+      ]
+    },
+    {
+      "name": "actual browser export: actual interior shared-edge neighbors within 10 percent",
+      "passed": true,
+      "detail": {
+        "interior_max_actual_size_ratio": 1.0059097196026758,
+        "arc_crop_max_actual_size_ratio_separate": 4.071721536802722,
+        "arc_crops_subject_to_10_percent_bound": false
+      }
+    },
+    {
+      "name": "actual browser export: four rigid instances contain equal complete panel counts",
+      "passed": true
+    },
+    {
+      "name": "actual browser export: four installed full roofs are actual rigid copies of complete template",
+      "passed": true,
+      "detail": {
+        "max_inverse_transformed_coordinate_difference_m": 1.1368683772161603e-13
+      }
+    },
+    {
+      "name": "actual export: exactly four declared complete world exteriors",
+      "passed": true
+    },
+    {
+      "name": "actual A dense exterior: complete footprint, dense 3D edge coverage, independently traced arc provenance",
+      "passed": true,
+      "detail": {
+        "dense_edge_count": 277,
+        "dense_arc_edge_count": 129,
+        "independent_outline_edge_count": 197,
+        "independent_arc_edge_count": 103
+      }
+    },
+    {
+      "name": "actual B dense exterior: complete footprint, dense 3D edge coverage, independently traced arc provenance",
+      "passed": true,
+      "detail": {
+        "dense_edge_count": 277,
+        "dense_arc_edge_count": 129,
+        "independent_outline_edge_count": 197,
+        "independent_arc_edge_count": 103
+      }
+    },
+    {
+      "name": "actual C dense exterior: complete footprint, dense 3D edge coverage, independently traced arc provenance",
+      "passed": true,
+      "detail": {
+        "dense_edge_count": 277,
+        "dense_arc_edge_count": 129,
+        "independent_outline_edge_count": 197,
+        "independent_arc_edge_count": 103
+      }
+    },
+    {
+      "name": "actual D dense exterior: complete footprint, dense 3D edge coverage, independently traced arc provenance",
+      "passed": true,
+      "detail": {
+        "dense_edge_count": 277,
+        "dense_arc_edge_count": 129,
+        "independent_outline_edge_count": 197,
+        "independent_arc_edge_count": 103
+      }
+    },
+    {
+      "name": "CSV: one row per actual panel with stock and finished dimensions",
+      "passed": true
+    },
+    {
+      "name": "DAE: one actual geometry per exported panel",
+      "passed": true
+    },
+    {
+      "name": "DAE: actual world coordinates retain nine decimals and remain planar",
+      "passed": true,
+      "detail": {
+        "max_coordinate_error_m": 4.999947122996673e-10,
+        "max_actual_plane_error_m": 2.7760491951962953e-09
+      }
+    },
+    {
+      "name": "geometry report: final frozen worker identity",
+      "passed": true
+    },
+    {
+      "name": "geometry report: final frozen HTML identity",
+      "passed": true
+    },
+    {
+      "name": "browser report: final frozen worker identity",
+      "passed": true
+    },
+    {
+      "name": "browser report: final frozen HTML identity",
+      "passed": true
+    },
+    {
+      "name": "bridge report: final frozen worker identity",
+      "passed": true
+    },
+    {
+      "name": "bridge report: final frozen HTML identity",
+      "passed": true
+    },
+    {
+      "name": "runtime report: final frozen worker identity",
+      "passed": true
+    },
+    {
+      "name": "runtime report: final frozen HTML identity",
+      "passed": true
+    },
+    {
+      "name": "independent geometry aggregate passed against approved reconstruction",
+      "passed": true
+    },
+    {
+      "name": "independent geometry report binds both actual verifier source files",
+      "passed": true
+    },
+    {
+      "name": "independent geometry cases include true rectangles, verified arc crops, coverage, folds and neighbors",
+      "passed": true
+    },
+    {
+      "name": "1000x3000: safe input provenance path",
+      "passed": true
+    },
+    {
+      "name": "1000x3000: exact input report identity",
+      "passed": true
+    },
+    {
+      "name": "1000x3000: safe report provenance path",
+      "passed": true
+    },
+    {
+      "name": "1000x3000: exact report report identity",
+      "passed": true
+    },
+    {
+      "name": "1000x3000: detailed actual meshes, seams and complete reconstructed coverage passed",
+      "passed": true
+    },
+    {
+      "name": "2500x6000: safe input provenance path",
+      "passed": true
+    },
+    {
+      "name": "2500x6000: exact input report identity",
+      "passed": true
+    },
+    {
+      "name": "2500x6000: safe report provenance path",
+      "passed": true
+    },
+    {
+      "name": "2500x6000: exact report report identity",
+      "passed": true
+    },
+    {
+      "name": "2500x6000: detailed actual meshes, seams and complete reconstructed coverage passed",
+      "passed": true
+    },
+    {
+      "name": "400x6000: safe input provenance path",
+      "passed": true
+    },
+    {
+      "name": "400x6000: exact input report identity",
+      "passed": true
+    },
+    {
+      "name": "400x6000: safe report provenance path",
+      "passed": true
+    },
+    {
+      "name": "400x6000: exact report report identity",
+      "passed": true
+    },
+    {
+      "name": "400x6000: detailed actual meshes, seams and complete reconstructed coverage passed",
+      "passed": true
+    },
+    {
+      "name": "2000x800: safe input provenance path",
+      "passed": true
+    },
+    {
+      "name": "2000x800: exact input report identity",
+      "passed": true
+    },
+    {
+      "name": "2000x800: safe report provenance path",
+      "passed": true
+    },
+    {
+      "name": "2000x800: exact report report identity",
+      "passed": true
+    },
+    {
+      "name": "2000x800: detailed actual meshes, seams and complete reconstructed coverage passed",
+      "passed": true
+    },
+    {
+      "name": "1000x2750-ratio2.75: safe input provenance path",
+      "passed": true
+    },
+    {
+      "name": "1000x2750-ratio2.75: exact input report identity",
+      "passed": true
+    },
+    {
+      "name": "1000x2750-ratio2.75: safe report provenance path",
+      "passed": true
+    },
+    {
+      "name": "1000x2750-ratio2.75: exact report report identity",
+      "passed": true
+    },
+    {
+      "name": "1000x2750-ratio2.75: detailed actual meshes, seams and complete reconstructed coverage passed",
+      "passed": true
+    },
+    {
+      "name": "adversarial geometry controls reject false rectangles, warped plates, fake arc cuts and mismatched folds",
+      "passed": true,
+      "detail": [
+        {
+          "name": "two actual neighboring rectangles accepted",
+          "expected_behavior": "accept",
+          "passed": true
+        },
+        {
+          "name": "slanted nominal rectangle rejected",
+          "expected_behavior": "reject",
+          "passed": true
+        },
+        {
+          "name": "nonplanar actual mesh rejected",
+          "expected_behavior": "reject",
+          "passed": true
+        },
+        {
+          "name": "separate bounding boxes are not actual shared edges",
+          "expected_behavior": "classify",
+          "passed": true
+        },
+        {
+          "name": "actual T neighbors detected and unequal size ratio rejected",
+          "expected_behavior": "reject",
+          "passed": true
+        },
+        {
+          "name": "missing footprint coverage rejected",
+          "expected_behavior": "reject",
+          "passed": true
+        },
+        {
+          "name": "duplicated plates and overlap rejected",
+          "expected_behavior": "reject",
+          "passed": true
+        },
+        {
+          "name": "collinear boundary subdivisions preserve four true corners",
+          "expected_behavior": "accept",
+          "passed": true
+        },
+        {
+          "name": "true folded shared 3-D edges detected",
+          "expected_behavior": "accept",
+          "passed": true
+        },
+        {
+          "name": "actual spatial rectangle right-angle and opposite-side checks",
+          "expected_behavior": "accept",
+          "passed": true
+        },
+        {
+          "name": "forged is_rectangle metadata cannot hide trapezoid",
+          "expected_behavior": "reject",
+          "passed": true
+        },
+        {
+          "name": "interior facet cut cannot claim remote outer arc",
+          "expected_behavior": "reject",
+          "passed": true
+        },
+        {
+          "name": "true rectangle intersection with full exterior arc accepted",
+          "expected_behavior": "accept",
+          "passed": true
+        },
+        {
+          "name": "bilateral actual fold partitions accepted",
+          "expected_behavior": "accept",
+          "passed": true
+        },
+        {
+          "name": "T-joint mismatch across fold rejected",
+          "expected_behavior": "reject",
+          "passed": true
+        },
+        {
+          "name": "duplicate folded mesh coverage rejected",
+          "expected_behavior": "reject",
+          "passed": true
+        },
+        {
+          "name": "complete actual V8 roof and correct four instances accepted",
+          "expected_behavior": "accept",
+          "passed": true
+        },
+        {
+          "name": "wrong actual roof instance placement rejected",
+          "expected_behavior": "reject",
+          "passed": true
+        },
+        {
+          "name": "actual plates floated away from reconstructed surface rejected",
+          "expected_behavior": "reject",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "actual browser passed without external requests or JavaScript errors",
+      "passed": true
+    },
+    {
+      "name": "actual browser GPU evidence confirms selected orange, peers red and positive exact quantities",
+      "passed": true
+    },
+    {
+      "name": "bridge numerical and syntax checks passed on actual exported sample and final Ruby",
+      "passed": true
+    },
+    {
+      "name": "bridge report accurately discloses its numerical mirror and absent SketchUp execution",
+      "passed": true
+    },
+    {
+      "name": "actual browser offline and runtime geometry guards passed",
+      "passed": true
+    },
+    {
+      "name": "actual worker resource guards passed with exact final-worker report",
+      "passed": true
+    },
+    {
+      "name": "released standalone identity",
+      "passed": true
+    },
+    {
+      "name": "release manifest unique and complete",
+      "passed": true
+    },
+    {
+      "name": "release manifest safe filename roof_panels_rectangular_v8.html",
+      "passed": true
+    },
+    {
+      "name": "release SHA/size roof_panels_rectangular_v8.html",
+      "passed": true
+    },
+    {
+      "name": "release manifest safe filename roof_panels_rectangular_v8_arc.png",
+      "passed": true
+    },
+    {
+      "name": "release SHA/size roof_panels_rectangular_v8_arc.png",
+      "passed": true
+    },
+    {
+      "name": "release manifest safe filename roof_panels_rectangular_v8_full.zip",
+      "passed": true
+    },
+    {
+      "name": "release SHA/size roof_panels_rectangular_v8_full.zip",
+      "passed": true
+    },
+    {
+      "name": "release manifest safe filename roof_panels_rectangular_v8_preview.png",
+      "passed": true
+    },
+    {
+      "name": "release SHA/size roof_panels_rectangular_v8_preview.png",
+      "passed": true
+    },
+    {
+      "name": "release manifest safe filename roof_panels_rectangular_v8_selection.png",
+      "passed": true
+    },
+    {
+      "name": "release SHA/size roof_panels_rectangular_v8_selection.png",
+      "passed": true
+    },
+    {
+      "name": "release manifest safe filename roof_panels_rectangular_v8_web.zip",
+      "passed": true
+    },
+    {
+      "name": "release SHA/size roof_panels_rectangular_v8_web.zip",
+      "passed": true
+    },
+    {
+      "name": "release manifest safe filename 使用说明.md",
+      "passed": true
+    },
+    {
+      "name": "release SHA/size 使用说明.md",
+      "passed": true
+    },
+    {
+      "name": "release manifest safe filename 打开说明.txt",
+      "passed": true
+    },
+    {
+      "name": "release SHA/size 打开说明.txt",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_web.zip: safe relative members, no symlinks or duplicate names, valid CRC",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_web.zip: exactly one runnable root app.html",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_web.zip: exact frozen app identity",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_web.zip: user guides and actual frozen bridge present",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_web.zip docs: independent positive dimensions and optional custom ratio",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_web.zip docs: former 1500mm input ceiling removed",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_web.zip docs: selected orange and same-size peers red with 1mm groups",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_web.zip docs: all internal finished panels are actual flat rectangles",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_web.zip docs: true exterior arc crops and stock versus finished sizes explained",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_web.zip docs: 10 percent similarity applies to interior rectangles separately",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_web.zip docs: approved reconstruction changes original fan ridges and area",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_web.zip docs: shared seams and world-coordinate placement explained",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_web.zip docs: resource limit and untested SketchUp runtime disclosed",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_web.zip: packaged source/report identity app.html",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_web.zip: packaged source/report identity sketchup_bridge.rb",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_web.zip: packaged source/report identity SKETCHUP使用说明.md",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: safe relative members, no symlinks or duplicate names, valid CRC",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: exactly one runnable root app.html",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: exact frozen app identity",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: user guides and actual frozen bridge present",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip docs: independent positive dimensions and optional custom ratio",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip docs: former 1500mm input ceiling removed",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip docs: selected orange and same-size peers red with 1mm groups",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip docs: all internal finished panels are actual flat rectangles",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip docs: true exterior arc crops and stock versus finished sizes explained",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip docs: 10 percent similarity applies to interior rectangles separately",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip docs: approved reconstruction changes original fan ridges and area",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip docs: shared seams and world-coordinate placement explained",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip docs: resource limit and untested SketchUp runtime disclosed",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity app.html",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity sketchup_bridge.rb",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity SKETCHUP使用说明.md",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 示例_2500x6000_矩形重构/1102e_V8矩形铝板分隔.json",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 示例_2500x6000_矩形重构/1102e_V8矩形铝板分隔.dae",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 示例_2500x6000_矩形重构/1102e_V8逐板统计.csv",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 1102e_V8矩形分格预览.png",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 1102e_V8圆弧修边预览.png",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 1102e_V8同尺寸联选预览.png",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/app.template.html.txt",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/renderer-v8.js",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/panel-worker.js",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/build_delivery.py",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/default-study.json",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/reconstructionData.json",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/modelData.json",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/source_uv_complete.json",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/context_lite.bin.gz",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/context_lite.meta.json",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/worker_generate.mjs",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/planar_rectangle.py",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/validate_dynamic_geometry_v8.py",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/validate_rectangles_and_neighbors.py",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/dynamic_geometry_validation.json",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/browser_smoke_v8.py",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/browser_validation_v8.json",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/browser_runtime_guard_v8.py",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/runtime_guard_validation_v8.json",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/validate_bridge_numeric_v8.py",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/bridge_numeric_validation.json",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/bridge_syntax_validation.json",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/v8_selection_validate.mjs",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/v8_selection_validation.json",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/build_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/package_delivery_v8.py",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/validate_delivery_v8.py",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/validation_reports/1000x2750-ratio2.75.geometry-v8.json",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/validation_reports/1000x2750-ratio2.75.study-v8.json",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/validation_reports/1000x3000.geometry-v8.json",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/validation_reports/1000x3000.study-v8.json",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/validation_reports/2000x800.geometry-v8.json",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/validation_reports/2000x800.study-v8.json",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/validation_reports/2500x6000.geometry-v8.json",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/validation_reports/2500x6000.study-v8.json",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/validation_reports/400x6000.geometry-v8.json",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/validation_reports/400x6000.study-v8.json",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: packaged source/report identity 技术复算/validation_reports/resource_guard_v8.json",
+      "passed": true
+    },
+    {
+      "name": "roof_panels_rectangular_v8_full.zip: required actual sample, reproducible source, independent reports included once",
+      "passed": true,
+      "detail": {
+        "missing_or_duplicate": []
+      }
+    }
+  ],
+  "geometry_scope": "Approved reconstructed roof; original fan ridges, surface shape and area intentionally changed. Original model/context retained as reference only. Interior actual rectangles satisfy 10 percent neighbor similarity; actual exterior arc crops are reported separately."
+}
